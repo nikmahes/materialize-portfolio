@@ -1,0 +1,119 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Copyright (c) 2016 Nikhil Maheshwari
+ */
+
+.logo {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 80px;
+}
+
+#logo-container {
+  height: 57px;
+  margin-bottom: 32px;
+}
+
+.side-bar {
+  background: #222729 url('../images/overlay.png');
+}
+
+.side-link {
+  text-align: right;
+}
+
+.active-side-link {
+  background-color: black;
+}
+
+.side-link-icon {
+  position: relative;
+  bottom: -5px;
+}
+
+.side-link-footer {
+  position: fixed;
+  top: 80%;
+  width: 100%;
+}
+
+.side-link-footer a {
+  cursor: pointer;
+  color: #FFF !important;
+  display: inline !important;
+  padding: 0px !important;
+}
+
+.fixed-navicon {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  color: #4db6ac;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.float-left {
+  float:left;
+  width:48%
+}
+
+.float-right {
+  float:right;
+  width:48%
+}
+
+.modal-footer a {
+  color: #fff !important;
+}
+
+footer.page-footer {
+  padding-top: 0px;
+}
+
+header, main, footer {
+  padding-left: 240px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out
+}
+
+@keyframes octocat-wave {
+  0%,
+  100% {
+    transform: rotate(0)
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg)
+  }
+  40%,
+  80% {
+    transform: rotate(10deg)
+  }
+}
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
